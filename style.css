@@ -334,17 +334,3 @@ main button {
 button:hover {
     background-color: black;
 }
-
-@media only screen and (max-width:688px) {
-    .firsts {
-        width: 100%;
-    }
-
-    .first-section {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .first-img {
-        flex-direction: column;
-    }
-}
